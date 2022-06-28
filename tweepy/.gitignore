@@ -1,7 +1,3 @@
-# Manually added
-webhook_env.py
-postgresEnv.py
-postgres.env
 creds.py
 twitter_keys.py
 
@@ -134,3 +130,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#MacOS
+.DS_Store
+
+#Large files 
+.jar
+.csv
