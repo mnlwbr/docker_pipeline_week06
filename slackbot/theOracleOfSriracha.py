@@ -5,9 +5,9 @@ import pandas as pd
 import sys
 
 # local imports
-import docker_pipeline_week06.slackbot.postgresEnv as postgresEnv
+import postgresEnv as postgresEnv
 import engine
-import docker_pipeline_week06.slackbot.webhook_env as webhook_env
+import webhook_env as webhook_env
 
 
 webhook_url = webhook_env.hookURL

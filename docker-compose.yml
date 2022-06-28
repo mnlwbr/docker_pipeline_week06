@@ -29,11 +29,13 @@ services:  # container
       - my_mongodb
       - my_postgres
   
-  slackbot:
+   slackbot:
     build: ./slackbot
     volumes:
     - ./slackbot/:/app
     depends_on:
     - my_postgres
     - my_etl
+
+
 
