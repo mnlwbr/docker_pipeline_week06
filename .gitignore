@@ -4,6 +4,8 @@ postgresEnv.py
 postgres.env
 creds.py
 twitter_keys.py
+engine.py
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
